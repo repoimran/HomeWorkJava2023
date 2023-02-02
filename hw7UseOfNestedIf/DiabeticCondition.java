@@ -1,4 +1,5 @@
 package hw7UseOfNestedIf;
+
 import java.util.Scanner;
 
 public class DiabeticCondition {

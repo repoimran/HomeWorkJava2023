@@ -1,7 +1,7 @@
 package hw8Abstraction;
 
 public class ColumbiaUniversity {
-//Can you create a Constructor inside a regular Class? 
+//Can you create a Constructor inside a regular Class?
 	private int numOfStudents;
 	public int numOfDept;
 
@@ -18,7 +18,7 @@ public class ColumbiaUniversity {
 	public int getNumOfStudents() {
 		return this.numOfStudents;
 	}
-//create 2 methods inside the class - 
+//create 2 methods inside the class -
 
 	// one is abstract, Name -- chemistry, if any of them is not possible to
 	// create,simply comment out the method and

@@ -21,9 +21,9 @@ public abstract class NursingSchool {
 	 * constructor of its superclass (including an abstract class). This can be
 	 * useful when we want to initialize the member variables of the superclass from
 	 * within the subclass constructor. For example:
-	 * 
+	 *
 	 * abstract class AbstractClass { int x; AbstractClass(int x) { this.x = x; } }
-	 * 
+	 *
 	 * class SubClass extends AbstractClass { int y; SubClass(int x, int y) {
 	 * super(x); this.y = y; } }
 	 */

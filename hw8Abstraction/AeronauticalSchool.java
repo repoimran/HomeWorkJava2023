@@ -1,6 +1,6 @@
 package hw8Abstraction;
 
 public interface AeronauticalSchool {
-	public String aeronauticalInfo(); 
+	public String aeronauticalInfo();
 
 }
