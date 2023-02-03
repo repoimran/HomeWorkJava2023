@@ -1,7 +1,8 @@
 package hw9Abstraction;
 
 public class ColumbiaUniversity {
-//Can you create a Constructor inside a regular Class?
+//	Can you create a Constructor inside a regular Class?
+//	--> Answer: Yes
 	private int numOfStudents;
 	public int numOfDept;
 
@@ -22,13 +23,16 @@ public class ColumbiaUniversity {
 
 	// one is abstract, Name -- chemistry, if any of them is not possible to
 	// create,simply comment out the method and
+	
 	// public abstract void chemistry();
+	
+	/*
+	explain why in the Java comment, inside this class only.
+	--> Answer: we get a compile time error --> "The abstract method chemistry in type ColumbiaUniversity 
+												can only be defined by an abstract class"
+	*/
 
-	// explain why in the Java comment, inside this class only.
-	// we get a compile time error --> "The abstract method chemistry in type
-	// ColumbiaUniversity can only be defined by an abstract class"
-
-	// and biology.
+	//	non abstract method biology.
 	public void biology() {
 		// Print something inside the non-abstract or implemented method.
 		System.out.println("******something******");
