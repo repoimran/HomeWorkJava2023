@@ -4,7 +4,7 @@ public class RockefellerUniversity {
 
 	public void maths() {
 
-		System.out.println("hello dumbfk");
+		System.out.println("hello world");
 	}
 
 }
